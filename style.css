@@ -1,0 +1,184 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+
+nav {
+    color: #989D9C;
+    font-weight: 600;
+    font-size: 24px;
+    position: relative;
+    align-items: center;
+    margin: 2% 0 0 3%;
+
+}
+
+#button-header {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    width: 130px;
+    height: 41px;
+    background-color: #665AE1;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    top: 6%;
+    left: 45%;
+    transform: translate(-50%, -50%)
+}
+
+h1 {
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+    width: 513px;
+    height: 122px;
+}
+
+main {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    margin-top: 10%;
+    margin-left: 50%;
+}
+
+h2 {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+    width: 448px;
+    height: 72px;
+}
+
+p {
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    width: 515px;
+    height: 87px;
+}
+
+.button-main {
+    border-radius: 20.5px;
+    background: #ADFF00;
+    width: 239px;
+    height: 64px;
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 12%;
+
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    margin-top:10%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        width: 100%;
+        height: 50%;
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        font-size: 14px;
+
+    }
+
+    #button-header {
+        width: 65px;
+        height: 20px;
+        font-size: 14px;
+        position: fixed;
+        margin: 0px;
+        margin-left: 300px;
+
+    }
+
+    .links {
+        display: none;
+    }
+
+    main {
+
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        margin-left: 0%;
+        width: 100%;
+        height: 50%;
+        padding: 100px 0 0 0;
+        align-items: center;
+
+    }
+
+    h1 {
+        width: 224px;
+        height: 61px;
+        font-size: 20px;
+
+
+
+    }
+
+    h2 {
+        width: 228px;
+        height: 37px;
+        font-size: 14px;
+
+
+
+    }
+
+    p {
+        width: 250px;
+        height: 37px;
+        font-size: 14px;
+        margin: 10px;
+
+
+    }
+
+    .button-main {
+        width: 150px;
+        height: 37px;
+        font-size: 14px;
+        margin-top: 100px;
+       
+
+
+    }
+
+    img {
+        width: 300px;
+        height: 250px;
+        margin: 450px 0 0 80px;
+        position: absolute;
+
+    }
+}
